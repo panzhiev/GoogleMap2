@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "23113527040",
+    "firebase_url": "https://pivotal-theory-160414.firebaseio.com",
+    "project_id": "pivotal-theory-160414",
+    "storage_bucket": "pivotal-theory-160414.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23113527040:android:6c299f78b6f09999",
+        "android_client_info": {
+          "package_name": "com.tim.googlemap2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23113527040-jdjo7fsuf0325lena6vbp82qk1fmjom5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tim.googlemap2",
+            "certificate_hash": "29132364e058efac758c876ca628f7f8ece97bff"
+          }
+        },
+        {
+          "client_id": "23113527040-d2tmhroifrcbak5r72mrsacip3od1nhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPwy0nWdbn_l22BhEoAvlw9v9xdmCvU6A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23113527040-d2tmhroifrcbak5r72mrsacip3od1nhm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
