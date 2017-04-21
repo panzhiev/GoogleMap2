@@ -1,4 +1,4 @@
-package com.tim.googlemap2;
+package com.tim.googlemap2.activities;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,6 +13,7 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.tim.googlemap2.R;
 
 import java.util.HashMap;
 import java.util.Iterator;

@@ -1,4 +1,4 @@
-package com.tim.googlemap2;
+package com.tim.googlemap2.activities;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -21,6 +21,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.tim.googlemap2.R;
+import com.tim.googlemap2.model.User;
 
 /**
  * A login screen that offers login via email/password.
@@ -156,6 +158,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
 
     private void onAuthSuccess(FirebaseUser user) {
+
         String username = usernameFromEmail(user.getEmail());
 
         // Write new user
@@ -174,14 +177,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
         User user = new User(name, email);
 
-//        if (userNames == null)
-//        {
-//            userNames = new ArrayList<>();
-//        }
-
         mDatabase.child("users").child(userId).setValue(user);
-//        userNames.add(name);
-//        mDatabase.child("usernamelist").setValue(userNames);
     }
 
     public void showUserList(){
@@ -308,6 +304,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         if (mProgressDialog != null && mProgressDialog.isShowing()) {
             mProgressDialog.dismiss();
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
     }
 }
 

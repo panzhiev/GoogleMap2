@@ -2,7 +2,7 @@
     <string name="app_name">GoogleMap2</string>
     <string name="title_activity_maps">Map</string>
     <string name="key_firebase">AIzaSyDH3VvE_ijRUWprpxbaKpXEE2fdj4nAGVs</string>
-    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_login">Firebase App Example</string>
 
     <!-- Strings related to login and signUp -->
     <string name="label_google_sign_in">Firebase + Google Sign In</string>

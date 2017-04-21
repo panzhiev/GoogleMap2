@@ -1,4 +1,4 @@
-package com.tim.googlemap2;
+package com.tim.googlemap2.model;
 
 import java.io.Serializable;
 
@@ -35,5 +35,13 @@ public class User implements Serializable{
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                '}';
     }
 }

@@ -7,4 +7,4 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         map:uiZoomControls="true"
-        tools:context="com.tim.googlemap2.MapsActivity" />
+        tools:context="com.tim.googlemap2.activities.MapsActivity" />

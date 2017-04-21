@@ -36,16 +36,16 @@
             android:value="@string/google_maps_key"/>
 
         <activity
-            android:name=".MapsActivity"
+            android:name=".activities.MapsActivity"
             android:label="@string/title_activity_maps">
         </activity>
-        <activity android:name=".RegistrationActivity"/>
-        <activity android:name=".ProfileActivity"/>
-        <activity android:name=".RunActivity"/>
-        <activity android:name=".ChatActivity"/>
-        <activity android:name=".ListRoomsActivity"/>
+        <activity android:name=".activities.RegistrationActivity"/>
+        <activity android:name=".activities.ProfileActivity"/>
+        <activity android:name=".activities.RunActivity"/>
+        <activity android:name=".activities.ChatActivity"/>
+        <activity android:name=".activities.ListRoomsActivity"/>
         <activity
-            android:name=".LoginActivity"
+            android:name=".activities.LoginActivity"
             android:label="@string/title_activity_login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -53,7 +53,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ListOfUsers">
+        <activity android:name=".activities.ListOfUsers">
         </activity>
     </application>
 </manifest>

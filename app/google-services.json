@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "23113527040-d65545mhd75vuabu0j1vddbirndoa6f3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tim.googlemap2",
+            "certificate_hash": "13391f4822eb8db5211de8c664418a463c0e82bd"
+          }
+        },
+        {
           "client_id": "23113527040-jdjo7fsuf0325lena6vbp82qk1fmjom5.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
